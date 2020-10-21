@@ -1,0 +1,13 @@
+prefix=/home/merou/Documents/CppStuff/OG_stuff
+exec_prefix=${prefix}
+includedir=/home/merou/Documents/CppStuff/OG_stuff/include
+libdir=/home/merou/Documents/CppStuff/OG_stuff/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.4.0
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw
+Libs.private:  -lrt -lm -ldl
+Cflags: -I${includedir}
